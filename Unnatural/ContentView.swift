@@ -59,8 +59,6 @@ struct ScrollSettings {
             kCFPreferencesAnyApplication
         )
         CFPreferencesAppSynchronize(kCFPreferencesAnyApplication)
-        
-        kCFAllocatorDefault
 
         applyScrollDirectionInstantly(enabled: enabled)
     }
