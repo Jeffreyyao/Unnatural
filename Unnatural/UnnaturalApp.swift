@@ -10,8 +10,9 @@ import SwiftUI
 @main
 struct UnnaturalApp: App {
     var body: some Scene {
-        WindowGroup {
+        MenuBarExtra("ScrollInvert", systemImage: "chevron.up.chevron.down") {
             ContentView()
         }
+        .menuBarExtraStyle(.window)
     }
 }
